@@ -175,7 +175,7 @@ Tab:AddSlider({
 	Min = 1,
 	Max = 192,
 	Default = 192,
-	Color = Color3.fromRGB(30,144,255),
+	Color = Color3.fromRGB(138,43,226),
 	Increment = 1,
 	ValueName = "Gravity Slider",
 	Callback = function(Value)
