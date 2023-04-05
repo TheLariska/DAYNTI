@@ -15,7 +15,7 @@ Text = "Key check!"
 }
 )
 
-local Window = OrionLib:MakeWindow({Name = "DAYNTI HUB [BETA]", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "DAYNTI HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
