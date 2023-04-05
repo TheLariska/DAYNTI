@@ -170,6 +170,19 @@ end)
 	end
 	})
 
+Tab:AddSlider({
+	Name = "Gravity",
+	Min = 1,
+	Max = 192,
+	Default = 192,
+	Color = Color3.fromRGB(30,144,255),
+	Increment = 1,
+	ValueName = "Gravity Slider",
+	Callback = function(Value)
+	game.workspace.Gravity = Value
+	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Mobile Script",
 	Icon = "rbxassetid://4483345998",
@@ -194,6 +207,13 @@ local Tab = Window:MakeTab({
 		Name = "Doors",
 		Callback = function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/Moonsec.lua"),true))()
+	end
+})
+
+  Tab:AddButton({
+		Name = "Blox Frut",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
 	end
 })
 
