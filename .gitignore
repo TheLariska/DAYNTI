@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Key", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 
-_G.Key = "1"
+_G.Key = "qPdLADnjfk"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
