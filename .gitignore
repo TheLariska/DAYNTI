@@ -287,6 +287,14 @@ wait(1)
 	end
 })
 
+  Tab:AddButton({
+		Name = "Teleport Gui",
+		Callback = function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+	end
+})
+
+
 local Tab = Window:MakeTab({
 	Name = "Game Script",
 	Icon = "rbxassetid://4483345998",
